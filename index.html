@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kumari Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="bg-dark text-white py-3">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 col-8 d-flex align-items-center">
+        <img src="lm.png" alt="Logo" class="me-2" style="width: 40px; height: 40px;">
+        <h1 class="h5 mb-0">ThreadMuse</h1>
+      </div>
+      <div class="col-md-6 col-4 text-md-end text-start mt-2 mt-md-0">
+        <p class="mb-0 small">Elegance in every thread 🧵</p>
+      </div>
+    </div>
+  </div>
+</header>
+  <nav class="navbar navbar-expand-lg bg-light px-3">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="bi bi-house-door-fill"></i> Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="product.html"><i class="bi bi-box-seam"></i> Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html"><i class="bi bi-info-circle"></i> About</a></li>
+          <li class="nav-item"><a class="nav-link" href="conduct.html"><i class="bi bi-envelope"></i> Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="view.html"><i class="bi bi-phone"></i> Viewport</a></li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" />
+          <button class="btn btn-primary" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="2"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="ChatGPT Image Jul 25, 2025, 03_12_08 PM.png" class="d-block w-100" alt="Elegant Sarees">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Elegant Sarees</h5>
+        <p>Handpicked elegance for every occasion.</p>
+        <div id="productCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+</div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="lm2.jpg" class="d-block w-100" alt="Traditional Kurtas">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Traditional Kurtas</h5>
+        <p>Blending comfort with timeless style.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="lm.png" class="d-block w-100" alt="Silk Dupattas">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Silk Dupattas</h5>
+        <p>Rich texture. Bold expression.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+    <section class="card-container">
+    <div class="card">
+      <img src="lm.png" alt="Product 1">
+      <h3>Handwoven Cotton Saree</h3>
+      <p>Elegant, breathable, and crafted by artisans.</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="lm2.jpg" alt="Product 2">
+      <h3>Printed Linen Kurta</h3>
+      <p>Perfect blend of tradition and comfort.</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="lm.png" alt="Product 3">
+      <h3>Silk Dupatta</h3>
+      <p>Rich colors and graceful texture.</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+<div class="card product-card" style="width: 16rem;">
+  <img src="lm2.jpg" class="card-img-top img-fluid" alt="Product Image">
+  <div class="card-body">
+    <h6 class="product-title">Elegant Cotton Saree</h6>
+    <p class="product-price text-success">₹799 <span class="text-muted text-decoration-line-through">₹1,299</span></p>
+    <p class="product-rating"><i class="bi bi-star-fill text-warning"></i> 4.5/5 (220 reviews)</p>
+    <button class="btn btn-warning btn-sm w-100"><i class="bi bi-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+  <div class="card-container container-fluid d-flex flex-wrap justify-content-center gap-4 p-4">
+    <div class="card" style="width: 18rem;">
+      <img src="lm2.jpg" class="card-img-top img-fluid" alt="Card Image">
+      <div class="card-body text-center">
+        <h5 class="card-title"><i class="bi bi-star-fill text-warning"></i> Card Title</h5>
+        <p class="card-text">This is a brief description that fits neatly inside the card.</p>
+        <div class="d-flex justify-content-center gap-2 flex-wrap">
+          <button class="btn btn-primary"><i class="bi bi-box-arrow-up-right"></i> Learn More</button>
+          <button class="btn btn-outline-secondary"><i class="bi bi-heart"></i> Like</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="bg-dark text-white pt-4 pb-2">
+  <div class="container text-center">
+    <div class="mb-3">
+      <a href="https://www.facebook.com/" target="_blank" class="text-white me-3">
+        <i class="bi bi-facebook fs-4"></i>
+      </a>
+      <a href="https://www.instagram.com/" target="_blank" class="text-white me-3">
+        <i class="bi bi-instagram fs-4"></i>
+      </a>
+      <a href="https://t.me/" target="_blank" class="text-white me-3">
+        <i class="bi bi-telegram fs-4"></i>
+      </a>
+      <a href="https://www.twitter.com/" target="_blank" class="text-white me-3">
+        <i class="bi bi-twitter fs-4"></i>
+      </a>
+      <a href="https://www.linkedin.com/" target="_blank" class="text-white me-3">
+        <i class="bi bi-linkedin fs-4"></i>
+      </a>
+    </div>
+    <p class="mb-1">&copy; 2025 ThreadMuse | Built with 💙 by Abinesh</p>
+    <div class="d-flex justify-content-center gap-2 flex-wrap mt-2">
+      <a href="#" class="btn btn-outline-light btn-sm">
+        <i class="bi bi-arrow-up-circle"></i> Back to Top
+      </a>
+      <a href="https://wa.me/" class="btn btn-outline-light btn-sm">
+        <i class="bi bi-whatsapp"></i> Chat
+      </a>
+    </div>
+  </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
